@@ -1,0 +1,29 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container{
+    width: 350px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.card {
+    width: 400px;
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 4px;
+}
+
+.card img{
+    width: 100px;
+    text-align: center;
+}
+
+.card-footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
